@@ -1,0 +1,4 @@
+D:\prog\component placer\x64\Release\component_placer.Form1.resources
+D:\prog\component placer\x64\Release\component placer.vcxproj.GenerateResource.cache
+D:\prog\component placer\x64\Release\component placer.exe
+D:\prog\component placer\x64\Release\component placer.vcxproj.AssemblyReference.cache

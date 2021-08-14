@@ -1,0 +1,44 @@
+﻿  Form1.cpp
+D:\prog\component placer\Form1.h(6,24): error C2871: 'System' : un espace de noms avec ce nom n'existe pas
+D:\prog\component placer\Form1.h(7,18): error C2653: 'System' : n'est pas un nom de classe ni d'espace de noms
+D:\prog\component placer\Form1.h(7,40): error C2871: 'ComponentModel' : un espace de noms avec ce nom n'existe pas
+D:\prog\component placer\Form1.h(8,18): error C2653: 'System' : n'est pas un nom de classe ni d'espace de noms
+D:\prog\component placer\Form1.h(8,37): error C2871: 'Collections' : un espace de noms avec ce nom n'existe pas
+D:\prog\component placer\Form1.h(9,18): error C2653: 'System' : n'est pas un nom de classe ni d'espace de noms
+D:\prog\component placer\Form1.h(9,40): error C2871: 'Forms' : un espace de noms avec ce nom n'existe pas
+D:\prog\component placer\Form1.h(10,18): error C2653: 'System' : n'est pas un nom de classe ni d'espace de noms
+D:\prog\component placer\Form1.h(10,30): error C2871: 'Data' : un espace de noms avec ce nom n'existe pas
+D:\prog\component placer\Form1.h(11,18): error C2653: 'System' : n'est pas un nom de classe ni d'espace de noms
+D:\prog\component placer\Form1.h(11,33): error C2871: 'Drawing' : un espace de noms avec ce nom n'existe pas
+D:\prog\component placer\Form1.h(16,2): error C2059: erreur de syntaxe : 'public'
+D:\prog\component placer\Form1.h(16,27): error C2059: erreur de syntaxe : 'public'
+D:\prog\component placer\Form1.h(16,34): error C2653: 'System' : n'est pas un nom de classe ni d'espace de noms
+D:\prog\component placer\Form1.h(17,2): error C2143: erreur de syntaxe : absence de ';' avant '{'
+D:\prog\component placer\Form1.h(17,2): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+  main.cpp
+D:\prog\component placer\main.cpp(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+D:\prog\component placer\Form1.h(6,24): error C2871: 'System' : un espace de noms avec ce nom n'existe pas
+D:\prog\component placer\Form1.h(7,18): error C2653: 'System' : n'est pas un nom de classe ni d'espace de noms
+D:\prog\component placer\Form1.h(7,40): error C2871: 'ComponentModel' : un espace de noms avec ce nom n'existe pas
+D:\prog\component placer\Form1.h(8,18): error C2653: 'System' : n'est pas un nom de classe ni d'espace de noms
+D:\prog\component placer\Form1.h(8,37): error C2871: 'Collections' : un espace de noms avec ce nom n'existe pas
+D:\prog\component placer\Form1.h(9,18): error C2653: 'System' : n'est pas un nom de classe ni d'espace de noms
+D:\prog\component placer\Form1.h(9,40): error C2871: 'Forms' : un espace de noms avec ce nom n'existe pas
+D:\prog\component placer\Form1.h(10,18): error C2653: 'System' : n'est pas un nom de classe ni d'espace de noms
+D:\prog\component placer\Form1.h(10,30): error C2871: 'Data' : un espace de noms avec ce nom n'existe pas
+D:\prog\component placer\Form1.h(11,18): error C2653: 'System' : n'est pas un nom de classe ni d'espace de noms
+D:\prog\component placer\Form1.h(11,33): error C2871: 'Drawing' : un espace de noms avec ce nom n'existe pas
+D:\prog\component placer\Form1.h(16,2): error C2059: erreur de syntaxe : 'public'
+D:\prog\component placer\Form1.h(16,27): error C2059: erreur de syntaxe : 'public'
+D:\prog\component placer\Form1.h(16,34): error C2653: 'System' : n'est pas un nom de classe ni d'espace de noms
+D:\prog\component placer\Form1.h(17,2): error C2143: erreur de syntaxe : absence de ';' avant '{'
+D:\prog\component placer\Form1.h(17,2): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+D:\prog\component placer\main.cpp(6,11): warning C4467: l'utilisation d'attributs ATL est déconseillée
+D:\prog\component placer\main.cpp(6,11): error C2337: 'STAThread' : attribut introuvable
+D:\prog\component placer\main.cpp(7,10): error C2065: 'array' : identificateur non déclaré
+D:\prog\component placer\main.cpp(7,16): error C2653: 'System' : n'est pas un nom de classe ni d'espace de noms
+D:\prog\component placer\main.cpp(7,24): error C2065: 'String' : identificateur non déclaré
+D:\prog\component placer\main.cpp(7,31): error C2059: erreur de syntaxe : '>'
+D:\prog\component placer\main.cpp(8,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+D:\prog\component placer\main.cpp(8,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+  Génération de code en cours...
