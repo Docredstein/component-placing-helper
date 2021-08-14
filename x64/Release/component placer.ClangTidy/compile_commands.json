@@ -1,0 +1,17 @@
+[
+  {
+    "directory": "D:\\prog\\component placer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/AI\"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\\\\" \/AI\"C:\\Program Files (x86)\\Windows Kits\\10\\References\" \/AI\"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\Facades\\\\\" \/Zi \/nologo \/W3 \/WX- \/diagnostics:column \/Ox \/D CODE_ANALYSIS \/D NDEBUG \/D _UNICODE \/D UNICODE \/EHa \/MD \/GS \/fp:precise \/Fo\"x64\\Release\\\\\" \/TP  \/clr:nostdlib  \"D:\\prog\\component placer\\Form1.cpp\"",
+    "file": "D:\\prog\\component placer\\Form1.cpp"
+  },
+  {
+    "directory": "D:\\prog\\component placer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/AI\"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\\\\" \/AI\"C:\\Program Files (x86)\\Windows Kits\\10\\References\" \/AI\"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\Facades\\\\\" \/Zi \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/D CODE_ANALYSIS \/D NDEBUG \/D _UNICODE \/D UNICODE \/EHa \/MD \/GS \/fp:precise \/Fo\"x64\\Release\\\\\" \/TP  \/clr:nostdlib  \"D:\\prog\\component placer\\main.cpp\"",
+    "file": "D:\\prog\\component placer\\main.cpp"
+  },
+  {
+    "directory": "D:\\prog\\component placer",
+    "command": "\"C:\\Windows\\system32\\CL.exe\" \/c \/AI\"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\\\\" \/AI\"C:\\Program Files (x86)\\Windows Kits\\10\\References\" \/AI\"C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.7.2\\Facades\\\\\" \/Zi \/nologo \/W3 \/WX- \/diagnostics:column \/O2 \/D CODE_ANALYSIS \/D NDEBUG \/D _UNICODE \/D UNICODE \/EHa \/MD \/GS \/fp:precise \/Fo\"x64\\Release\\\\\" \/TP  \/clr:nostdlib  \"D:\\prog\\component placer\\x64\\Release\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cpp\"",
+    "file": "D:\\prog\\component placer\\x64\\Release\\.NETFramework,Version=v4.7.2.AssemblyAttributes.cpp"
+  }
+]
