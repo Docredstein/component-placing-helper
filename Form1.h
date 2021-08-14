@@ -321,22 +321,23 @@ namespace component_placer {
 
 		}
 		String^ COM_PORT="";
-		float X0=0;
-		float Y0=0;
+		double X0=0;
+		double Y0=0;
 		float Z0;
-		float current_x=0;
-		float current_y=0;
+		double current_x=0;
+		double current_y=0;
 		int currentLine = 0;
 		array<String^>^ csv;
-		void move(float x, float y) {
+		void move(double x, double y) {
 			if (COM_PORT != "") {
 				this->serialPort1->PortName = COM_PORT;
 
 				this->serialPort1->Open();
 				String^ toSend = "G0 X" + Convert::ToString(x) + " Y" + Convert::ToString(y) + "\n";
 				this->serialPort1->Write(toSend);
-#ifdef DEBUG
-				Console::WriteLine(toSend);
+				#ifdef _DEBUG
+ // _DEBUG
+					Console::WriteLine(toSend);
 #endif
 				this->serialPort1->Close();
 			}
@@ -345,11 +346,41 @@ namespace component_placer {
 			
 			}
 		}
-		void moveRel(float x, float y) {
-			move(current_x + X0, current_y + Y0);
+		void moveRel(double x, double y) {
+			move(x + X0, y + Y0);
 		}
-		int AccessArray(int y, int x) {
+		const int AccessArray(int y, int x) {
 			return 7 * y + x;
+		}
+		const double StringToDouble(String^ input) {
+			double output = 0;
+			bool pointPassed = false;
+			int pointRank = 0;
+			int rank = 0;
+			int value = 0;
+			array<char>^ reference = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9','.' };
+			for (int i = 1; i <= input->Length; i++) {
+				for (int j = 0; j < 11; j++) {
+					if (reference[j] == input[input->Length-i]) {
+						value = j;
+						break;
+					}
+				}
+				if (value != 10) {
+					
+					output += value * Math::Pow(10, rank);
+					rank++;
+				}
+				else {
+					pointPassed = true;
+					pointRank = rank;
+				}
+
+
+
+			}
+			output = output / Math::Pow(10, pointRank);
+			return output;
 		}
 
 #pragma endregion
@@ -357,6 +388,7 @@ namespace component_placer {
 	private: System::Void Form1_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
 private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+
 	COM_PORT = this->COM_PORT_Select->SelectedItem->ToString();
 	
 
@@ -373,8 +405,10 @@ private: System::Void Next_BTN_Click(System::Object^ sender, System::EventArgs^ 
 		this->REF_Var->Text = csv[AccessArray(currentLine, 0)];
 		this->Value_Var->Text = csv[AccessArray(currentLine, 1)];
 		this->PKG_Var->Text = csv[AccessArray(currentLine, 2)];
+		//double value = Convert::ToDouble(csv[AccessArray(currentLine, 3)]);
 		
-		//moveRel(Convert::ToDouble(csv[AccessArray(currentLine, 3)]), Convert::ToDouble(csv[AccessArray(currentLine, 4)]));
+		//double value3 = StringToDouble(csv[AccessArray(currentLine, 3)]);
+		moveRel(StringToDouble(csv[AccessArray(currentLine, 3)]), StringToDouble(csv[AccessArray(currentLine, 3)]));
 		currentLine++;
 	}
 	else {

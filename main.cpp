@@ -1,6 +1,8 @@
+
 #include "Form1.h";
 #include "Serial.h"
 //#define _WIN64
+
 using namespace component_placer;
 
 [STAThread]
