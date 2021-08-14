@@ -1,2 +1,6 @@
-﻿  Form1.obj : module MSIL détecté ; liens incrémentiels désactivés pour MSIL ; édition de liens complète en cours
+﻿  Form1.cpp
+  main.cpp
+D:\prog\component placer\main.cpp(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Génération de code en cours...
+  Form1.obj : module MSIL détecté ; liens incrémentiels désactivés pour MSIL ; édition de liens complète en cours
   component placer.vcxproj -> D:\prog\component placer\x64\Debug\component placer.exe

@@ -333,7 +333,11 @@ namespace component_placer {
 				this->serialPort1->PortName = COM_PORT;
 
 				this->serialPort1->Open();
-				this->serialPort1->Write("G0 X" + x + " Y" + y);
+				String^ toSend = "G0 X" + Convert::ToString(x) + " Y" + Convert::ToString(y) + "\n";
+				this->serialPort1->Write(toSend);
+#ifdef DEBUG
+				Console::WriteLine(toSend);
+#endif
 				this->serialPort1->Close();
 			}
 			else {
